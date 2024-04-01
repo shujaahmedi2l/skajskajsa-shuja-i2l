@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sasassaa"
+  description: 
+  annotations:
+    github.com/project-slug: /sasassaa
+    argocd/app-name: sasassaa
+  links:
+    - url: https://sasassaa.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
